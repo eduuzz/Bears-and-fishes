@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Peixe
+comment1.params=sexo\ velocidade\ jaProcriou
+comment1.target=Peixe(char,\ int,\ boolean)
+comment2.params=
+comment2.target=void\ procriar()
+comment3.params=
+comment3.target=boolean\ getJaProcriou()
+comment4.params=jaProcriou
+comment4.target=void\ setJaProcriou(boolean)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
