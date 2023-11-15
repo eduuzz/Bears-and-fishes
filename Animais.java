@@ -8,24 +8,6 @@ public class Animais{
     public Animais(char sexo, int velocidade){
         this.sexo = sexo;
         this.velocidade = velocidade;
-        randomiza();
-    }
-    
-    // ola 
-    
-    // randomiza sexo e velocidade 
-    public void randomiza(){
-        Random rand = new Random();
-        
-        int velocAle = rand.nextInt(20) + 1;
-        velocidade = velocAle;
-        
-        int num = rand.nextInt(2);
-        if(num == 0){
-            sexo = 'M';
-        }else{
-            sexo = 'F';
-        }   
     }
     
     public char getSexo(){
@@ -51,5 +33,4 @@ public class Animais{
         retorno += "Velocidade: " + this.getVelocidade();
         return retorno;
     }
-
 }

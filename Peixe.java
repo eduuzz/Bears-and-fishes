@@ -13,7 +13,6 @@ public class Peixe extends Animais{
         
     }
     
-    
     // getters e setters
     public boolean getJaProcriou(){
         return this.jaProcriou;
