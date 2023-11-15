@@ -11,6 +11,8 @@ public class Animais{
         randomiza();
     }
     
+    // ola 
+    
     // randomiza sexo e velocidade 
     public void randomiza(){
         Random rand = new Random();
