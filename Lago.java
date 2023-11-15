@@ -15,7 +15,7 @@ public class Lago{
         this.array_margem2 = new Animais[tamanho_arrays];
         this.array_agua1 = new Animais[tamanho_arrays];
         this.array_agua2 = new Animais[tamanho_arrays];
-        this.tamanho_arrays = tamanho_arrays;
+        this.tamanho_arrays = (int)(Math.random() * (10 - 5 + 1) + 5);
         this.max_ursos = (int)(Math.random() * (5 - 1 + 1) + 1);
         this.max_peixes = (int)(Math.random() * (12 - 5 + 1) + 5);
         this.max_pescadores = (int)(Math.random() * (2 - 1 + 1) + 1);
