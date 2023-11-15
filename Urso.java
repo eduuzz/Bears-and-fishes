@@ -5,8 +5,8 @@ public class Urso extends Animais{
     }
     
     // metodo atacar peixe
-    public void atacarPeixe(){
-       
+    public void atacarPeixe(Peixe[] arrayPeixes){
+        
     }
     
     // impressao
