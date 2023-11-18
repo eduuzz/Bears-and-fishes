@@ -3,7 +3,7 @@ public class Peixe extends Animais{
     private boolean jaProcriou;    
     
     // construtor
-    public Peixe(char sexo, int velocidade, boolean jaProcriou){
+    public Peixe(char sexo, int velocidade){
         super(sexo, velocidade);
         this.jaProcriou = false;
     }
